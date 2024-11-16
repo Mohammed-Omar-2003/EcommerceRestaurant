@@ -1,0 +1,17 @@
+.bigBox {
+  background: url("../../../assets/backgroundmoution.jpg") center no-repeat;
+  background-size: cover;
+}
+.bakedfrish {
+  background-color: rgba(53, 53, 53, 0.5);
+  text-align: center;
+  padding: 60px 30px;
+}
+.bakedfrish button:hover {
+  background: none;
+}
+@media (max-width: 672px) {
+  .bakedfrish h1 {
+    margin-bottom: 30px;
+  }
+}

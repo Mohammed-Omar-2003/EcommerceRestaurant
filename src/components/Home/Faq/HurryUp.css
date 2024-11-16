@@ -1,0 +1,24 @@
+.hurryUp {
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+.hurryUp h1 {
+  max-width: 60%;
+  margin: auto;
+}
+.hurryUp p{
+    margin: 20px 0px;
+}
+.hurryUp form {
+  margin: auto;
+}
+.hurryUp div input {
+  padding: 9px;
+  margin-right: 20px;
+}
+@media (max-width: 672px) {
+  .hurryUp {
+    padding: 100px 20px;
+  }
+}

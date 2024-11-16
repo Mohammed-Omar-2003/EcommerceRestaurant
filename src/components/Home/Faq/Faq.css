@@ -1,0 +1,33 @@
+.faq {
+  text-align: left;
+  margin: 70px auto;
+}
+.faq h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  color: rgb(168, 45, 73);
+}
+.faq .line {
+  display: flex;
+  gap: 30px;
+}
+.faq h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.faq h4 span {
+  color: rgb(168, 45, 73);
+  font-size: 40px;
+  font-weight: 300;
+  margin-right: 5px;
+}
+.faq {
+  font-size: 18px;
+}
+@media (max-width: 672px) {
+  .faq .line {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

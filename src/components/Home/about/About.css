@@ -1,0 +1,100 @@
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+button:hover a {
+  color: rgb(168, 45, 73);
+}
+.one {
+  margin: 40px 0px;
+}
+.one img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+@media (max-width: 672px) {
+  .one .image {
+    margin: auto;
+  }
+  .one img {
+    max-width: 100%;
+  }
+}
+.one .text h2 {
+  font-weight: 700;
+  margin-top: 60px;
+}
+.one .text p,
+.two .text p {
+  color: #333;
+  margin: 30px 0px;
+}
+.one .text button,
+.two .text button {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgb(168, 45, 73);
+  transition: 0.2s;
+}
+.one .text button:hover,
+.two .text button:hover {
+  outline: 3px solid rgb(168, 45, 73);
+  color: rgb(168, 45, 73) !important;
+  background-color: #fff;
+}
+.two .text h2 {
+  font-weight: 700;
+  margin-top: 130px;
+}
+.two .text h5 {
+  margin: 20px 0px;
+}
+.two .text h5 span {
+  margin-right: 10px;
+  color: rgb(168, 45, 73);
+  font-weight: bold;
+  font-size: 20px;
+}
+.two img {
+  max-width: 100%;
+}
+.video {
+  background: url("../../../assets/imgvido.jpg") center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video .text {
+  width: 50%;
+}
+.video .text h1 {
+  color: rgb(168, 45, 73);
+  font-weight: 700;
+}
+.video .text p {
+  margin: 20px 0px;
+}
+.video .text button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+.video .text button:hover {
+  color: rgb(168, 45, 73);
+}
+@media (max-width: 672px) {
+  .video .text button {
+      font-size: 17px;
+
+  }
+}
